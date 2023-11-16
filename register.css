@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(img/bg4.jpg) ;
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+    height: 650px;
+}
+
+#panel{
+    display: flex;
+    background-color:transparent;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+    font-size: 20px;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid white;
+    border-radius: 10px;
+   
+}
+#panel h3{
+    color: white;
+    padding: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#panel h4{
+
+    color: white;
+    padding: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.contform_container{
+    border: 3px solid white;
+    border-radius: 10px;
+    width: 500px;
+    margin: 10pxx;
+    padding: 30px;
+}
+#panel .box{
+    color: black;
+    display: flex;
+    width: 90%;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.btn{
+    margin: 10px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: medium;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+}   
+
+.btn:hover{
+    background-color:black;
+    color: white;
+    padding: 20px 20px;
+    border-radius: 10px;
+
+}
+
+.doctor_image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+ flex-direction: column;
+ align-items: center;
+}
+
+
+
+#display-image {
+    width: 150px;
+
+    height: 150px;
+
+    border-radius: 100%;
+
+    border: 5px solid white;
+
+    background-position: center;
+
+    background-size: cover;
+
+    background-image: url(../user/image/doctors/de.png);
+  
+    
+
+}
+
+
+
+.image_file {
+
+    display: none;
+
+}
+
+
+
+.cam {
+
+    color: white;
+
+
+}
+
+
+
+.doctor_image1 {
+
+    margin-top: 15%;
+
+}
+
+
+
+.im_inp_dis {
+
+    position: relative;
+
+}
+
+
+
+.im_inp_dis div:nth-child(2) {
+
+    position: absolute;
+
+    left: -10%;
+
+    top: 70%;
+
+    font-size: 30px;
+
+}
